@@ -10,7 +10,7 @@ public class Multiplication
 	int Number = Input.nextInt();
 	for(int i=1;i<=EndNumber;i++)
 	{
-		System.out.println(i + "*" + EndNumber + "=" +(EndNumber*i));
+		System.out.println(i + "*" + Number + "=" +(Number*i));
 	}
 	}
 	
