@@ -4,14 +4,15 @@ public class Palindrome
 {
 	public static void main(String args[])
 	{
+		System.out.print("Enter the String ");
 		Scanner input = new Scanner(System.in);
 		String palindrome = input.nextLine();
 		boolean b = checkPalindrome(palindrome);
 		if (b == true)
 		{
-			System.out.print("Palindrome");
+			System.out.print(palindrome + " Is Palindrome");
 		}else {
-			System.out.print("Not Palindrome");
+			System.out.print(palindrome + " Is Not Palindrome");
 		}
 		}
 	public static boolean checkPalindrome(String str)
@@ -27,8 +28,5 @@ public class Palindrome
 			}
 		}
 	return true;
-	
 	}
-	
-
 }
